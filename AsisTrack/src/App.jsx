@@ -1,18 +1,13 @@
-import { useState } from "react";
 import "@fontsource/roboto";
 import "./styles/App.css";
+import { RegisterScreen } from "./screns";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <>
-      <h1 className="regTitle">Registro de asistencia</h1>
-      <h3 className="regSubTitle">
-        Para registrar su asistencia, ingrese su cédula.
-      </h3>
+      <RegisterScreen></RegisterScreen>
     </>
   );
-}
+};
 
 export default App;
