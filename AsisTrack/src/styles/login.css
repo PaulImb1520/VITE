@@ -1,0 +1,22 @@
+.loginPanel-container {
+  width: 32%;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+.loginPanel {
+  height: 25rem;
+}
+
+.logTitle {
+  text-align: center;
+}
+
+.logSubTitle {
+  padding-top: 5%;
+}
+
+.loginButton {
+  margin-top: 3rem;
+  padding-inline: 100px;
+}

@@ -1,11 +1,9 @@
-import "@fontsource/roboto";
-import "./styles/App.css";
-import { RegisterScreen } from "./screns";
+import { Rutas } from "./routes";
 
 const App = () => {
   return (
     <>
-      <RegisterScreen></RegisterScreen>
+      <Rutas />
     </>
   );
 };
