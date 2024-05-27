@@ -1,7 +1,11 @@
 .loginPanel-container {
-  width: 32%;
+  width: 95%;
   margin: 0 auto;
   padding-top: 15%;
+
+  @media (min-width: 700px) {
+    width: 32%;
+  }
 }
 
 .loginPanel {

@@ -5,7 +5,7 @@ const LoginScreen = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate("/otherScreen");
+    navigate("/reporte");
   };
 
   return (

@@ -1,4 +1,4 @@
 import LoginScreen from "./LoginScreen";
-import { OtherScreen } from "./otherScreen";
+import { ReportScreen } from "./ReportScreen";
 
-export { LoginScreen, OtherScreen };
+export { LoginScreen, ReportScreen };
